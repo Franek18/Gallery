@@ -1,0 +1,247 @@
+body 
+{
+    background-color: #303030;
+    margin: auto;
+}
+
+@media (max-width: 768px){
+    main .wiedzmin{float:none; width:100%;}
+    main .galeria{width:100%; height:auto;}
+
+    main nav ol{
+        display:block;
+        width: 100%;
+    }
+    main nav ol > li{
+        border-left: 1px red groove;
+        width:100%;
+    }
+    main nav ol > li > ul{
+        width: 100%;
+    }
+    main nav ol > li > ul > li{
+        width: 100%;
+    }
+}
+th,td
+{
+    border:2px red groove;
+}
+table
+{
+    margin-left: auto;
+    margin-right: auto;
+    background-color: black;
+    color: white;
+    text-align: center;
+}
+th
+{
+    font-size: 20px;
+}
+header {
+    height: 10%;
+    width: 100%;
+    background-color: black;
+    text-align: center;
+    color: darkgray;
+    padding: 5px 0px 5px 0px;
+    letter-spacing: 3px;
+}
+nav {
+    width: 100%;
+    background-color: black;
+    margin-left: auto;
+    margin-right: auto;
+    text-align: center;
+}
+.menu{
+    display:none;
+}
+main {
+    padding: 25px;
+    width: 65%;
+    background-color: black;
+    margin-left: auto;
+    margin-right: auto;
+    color: dimgray;
+    border: 2px solid black;
+    border-radius: 8px;
+    box-shadow: 0 0 2px 1px dimgray;
+}
+.dialog {
+    color: dimgray;
+    background-color: black;
+    border: 1px solid red;
+    border-radius: 8px;
+    text-align: center;
+    padding: 2px;
+    font-size: 20px;
+}
+.dialog_bar {
+    color: darkred;
+    background-color: black;
+    border-bottom: 1px solid red;
+    text-align: center;
+    padding: 2px;
+    font-size: 25px;
+}
+.tooltip {
+    font-size:20px;
+    color: dimgray;
+    background-color: black;
+    border: 1px solid red;
+    width: 100px;
+    border-radius: 8px;
+    text-align:center;
+    padding:2px;
+}
+footer {
+    text-align: center;
+    clear: both;
+    height: 10%;
+    width: 100%;
+    background-color: black;
+}
+.site{
+    margin: 10px;
+    font-size:45px;
+}
+.stopka {
+    padding-top: 20px;
+    font-size: 25px;
+}
+.wiedzmin {
+    margin: 10px;
+    width: 33%;
+    height: auto;
+    float: right;
+    box-shadow: 0 0 2px 1px dimgray;
+    border-radius: 8px;
+}
+.galeria {
+    float:left;
+    width: auto;
+    height: 100px;
+    margin-left: 2%;
+    margin-top: 2%;
+    box-shadow: 0 0 2px 1px dimgray;
+    border-radius: 8px;
+}
+#img1,#img2,#img3,#img4,#img5{
+    height:auto;
+    width:auto;
+}
+.formularz {
+    text-align: justify;
+    width: 35%;
+    height: 30%;
+    border: 2px solid black;
+    background-color: dimgray;
+    border-radius: 5px;
+}
+.inputy {
+    border: 2px solid black;
+    background-color: dimgray;
+    border-radius: 5px;
+}
+.przycisk {
+    width: auto;
+    height: 3%;
+    border: 2px solid black;
+    background-color: dimgray;
+    border-radius: 5px;
+}
+a:link{
+    color: white;
+    text-decoration: none;
+}
+a:visited {
+    color: white;
+    text-decoration: none;
+}
+a:hover {
+    color: red;
+    text-decoration: underline;
+}
+#galeria
+{
+    margin:auto;
+    text-align: center;
+}
+ol {
+    height: 35px;
+    margin: 0;
+    padding: 0;
+    font-size: 18px;
+    list-style-type: none;
+    display: inline-block;
+    line-height: 200%;
+}
+ol a
+{
+    color: white;
+    text-decoration: none;
+    display: block;
+}
+ol a:visited
+{
+    color: white;
+    text-decoration: none;
+    display: block;
+}
+ol a:link
+{
+    color: white;
+    text-decoration: none;
+    display: block;
+}
+ol a:hover
+{
+    color: white;
+    text-decoration: none;
+    display: block;
+}
+ol > li
+{
+    height: 35px;
+    float: left;
+    width: 200px;
+    border-right: 1px red groove;
+}
+ol > li:hover
+{
+    background-color:darkred;
+}
+ol > li:first-child
+{
+    border-left: 1px red groove;
+}
+ol > li > ul
+{
+    height: 35px;
+    margin: 0;
+    padding: 0;
+    font-size: 18px;
+    list-style-type: none;
+    display: none;
+    line-height: 200%;
+}
+ol > li:hover > ul
+{
+    display: block;
+}
+ol > li > ul > li
+{
+    background-color: black;
+    height: 35px;
+    width: 200px;
+    border-top: 1px red groove;
+    color: white;
+    position: relative;
+    z-index: 100;
+}
+ol > li > ul > li:hover
+{
+    background-color:darkred;
+}
